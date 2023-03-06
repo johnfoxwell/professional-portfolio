@@ -1,0 +1,58 @@
+/* Element selectors */
+nav ul li{
+    list-style: none;
+    display: inline-flex;
+    padding: 10px;
+    border: 1px;
+    border-style: dotted;
+}
+
+nav ul li:hover {
+    font-size: larger;
+}
+
+
+/* ID selectors */
+
+
+
+/* Class selectors */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+/* Projects */
+/* I want to add a scroll option between images when the viewport is resized or on mobile. */
+.showcase {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.showcase img {
+    padding: 2px;
+}
+
+.showcase img:hover {
+    border: 5px;
+    border-color: aqua;
+    border-style: dashed;
+}
+
+/* Footer */
+/* How do I stop the footer from moving when I hover over the placeholder image? */
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer h4 {
+    font-size: 21px;
+}
+
+.footer ul li {
+    list-style: none;
+    display: inline-flex;
+    padding: 5px;
+}
